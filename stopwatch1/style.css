@@ -1,0 +1,43 @@
+.cointaner{
+    border-radius: 20px;
+    margin: 100px auto 0;
+    border: 2px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-content: center;
+      height: 30vh;
+    width: 30vw;
+    background-image: linear-gradient(to right, #8360c3, #2ebf91);
+}
+H2{
+    background-image: radial-gradient(circle farthest-side, #fceabb, #f8b500);;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+}
+
+
+.display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    background-image: linear-gradient(to right, #0099f7, #f11712);
+    margin: 2px;
+    font-weight: 700;
+    border: none;
+    outline: none;
+}
+button:hover{
+    cursor: pointer;
+ background-image: radial-gradient(circle farthest-side, #fceabb, #f8b500);;
+    transform: scale(1.1);
+}
